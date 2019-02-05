@@ -1,12 +1,12 @@
 # Adository
-<h2>What it is?</h2> 
-<p>If you are a fans of ADO .Net and want to keep stick with because you dont want to migrate to EF yet, then here a tool for you to generate repository classes using ADO .Net.</p>
+<h2>What it Adository?</h2> 
+<p>If you are a fans of ADO .Net and want to stick with it because you dont want to migrate to EF yet, then here is a tool for you to generate repository classes using ADO .Net.</p>
 
 <h2>Supported Languange And Database</h2>
 <p>Database: SQL Server</p>
 <p>Language: C# and Visual Basic</p>
 
-<h2>How To Generate Repository</h2>
+<h2>How To Generate Repository Classes</h2>
 <p>It's recommended to create a separated project (class library) to put the generated code.</p>
 <p>1. Open The App (Build/Run the project)</p>
 <p>2. Pick Language (C# or VB)</p>
