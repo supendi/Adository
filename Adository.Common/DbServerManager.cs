@@ -18,7 +18,6 @@ namespace Adository.Common
             this.Name = name;
             DataSets = new List<DataSet>();
         }
-        private bool changeTest;
     }
 
     public class DbServerManager : IDisposable
@@ -29,7 +28,7 @@ namespace Adository.Common
         {
             get
             {
-                return new string[] 
+                return new string[]
                 {
 
                      "ReportServerTempDB",
@@ -49,7 +48,7 @@ namespace Adository.Common
         private bool SkipDb(string dbName)
         {
             return false;
-            return skippedDbs.Contains(dbName); 
+            return skippedDbs.Contains(dbName);
         }
 
         private List<SysDatabaseModel> GetDatabases()
