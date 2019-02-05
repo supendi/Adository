@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ServerBrowserForm));
             this.refreshTableMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
@@ -40,16 +39,16 @@
             this.mnuPreviewModelClass = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuPreview = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuPreviewRepositoryPackClass = new System.Windows.Forms.ToolStripMenuItem();
-            this.tableContextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.tableContextMenu = new System.Windows.Forms.ContextMenuStrip();
             this.disconnectServerMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripSeparator();
             this.refreshServerMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.serverContextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.serverContextMenu = new System.Windows.Forms.ContextMenuStrip();
             this.refreshDatabaseMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripSeparator();
             this.generateRepositoryMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.dbContextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.imageList = new System.Windows.Forms.ImageList(this.components);
+            this.dbContextMenu = new System.Windows.Forms.ContextMenuStrip();
+            this.imageList = new System.Windows.Forms.ImageList();
             this.treeView = new System.Windows.Forms.TreeView();
             this.openServerConnectorButton = new System.Windows.Forms.ToolStripButton();
             this.toolStrip = new System.Windows.Forms.ToolStrip();
@@ -91,7 +90,7 @@
             // 
             this.mnuPreviewInsertClass.Name = "mnuPreviewInsertClass";
             this.mnuPreviewInsertClass.Size = new System.Drawing.Size(188, 22);
-            this.mnuPreviewInsertClass.Text = "Insert Class"; 
+            this.mnuPreviewInsertClass.Text = "Insert Class";
             // 
             // mnuPreviewSelectClass
             // 
@@ -108,7 +107,7 @@
             // 
             this.mnuPreviewModelClass.Name = "mnuPreviewModelClass";
             this.mnuPreviewModelClass.Size = new System.Drawing.Size(188, 22);
-            this.mnuPreviewModelClass.Text = "Model Class";
+            this.mnuPreviewModelClass.Text = "Query Class";
             // 
             // mnuPreview
             // 
@@ -137,7 +136,7 @@
             this.mnuPreview,
             this.refreshTableMenu});
             this.tableContextMenu.Name = "contextMenuStrip";
-            this.tableContextMenu.Size = new System.Drawing.Size(116, 48);
+            this.tableContextMenu.Size = new System.Drawing.Size(181, 70);
             // 
             // disconnectServerMenu
             // 

@@ -91,13 +91,13 @@
             // 
             this.mnuPreviewInsertClass.Name = "mnuPreviewInsertClass";
             this.mnuPreviewInsertClass.Size = new System.Drawing.Size(188, 22);
-            this.mnuPreviewInsertClass.Text = "Insert Class"; 
+            this.mnuPreviewInsertClass.Text = "Insert Class";
             // 
             // mnuPreviewSelectClass
             // 
             this.mnuPreviewSelectClass.Name = "mnuPreviewSelectClass";
             this.mnuPreviewSelectClass.Size = new System.Drawing.Size(188, 22);
-            this.mnuPreviewSelectClass.Text = "Select Class";
+            this.mnuPreviewSelectClass.Text = "Query Class";
             // 
             // toolStripMenuItem1
             // 
@@ -137,7 +137,7 @@
             this.mnuPreview,
             this.refreshTableMenu});
             this.tableContextMenu.Name = "contextMenuStrip";
-            this.tableContextMenu.Size = new System.Drawing.Size(116, 48);
+            this.tableContextMenu.Size = new System.Drawing.Size(181, 70);
             // 
             // disconnectServerMenu
             // 
