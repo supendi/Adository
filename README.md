@@ -14,6 +14,7 @@
 <p>4. Select a database node and click 'Generate Repository' Context Menu</p>
 <p>5. Type your namespace name, DbContext name, and select a folder project where you want to generate the files.</p>
 <p>6. In your IDE (visual studio) point to project where the files generated. Show all files, select the generated folders and files then include to your project</p>
+<p>7. Note that the dbcontext class will read connection string from config file(app.config or web.config). So you must add/create your own connection string in the config file </p>
 
 <h2>Use the generated code</h2>
 <p>It's a bit similiar to how we use an EF dbcontext object.</p>
