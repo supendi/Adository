@@ -18,6 +18,7 @@ namespace Adository.Common
             this.Name = name;
             DataSets = new List<DataSet>();
         }
+        private bool changeTest;
     }
 
     public class DbServerManager : IDisposable

@@ -1,9 +1,0 @@
-D:\Irpan\Adository\Adository.CSharp\bin\Debug\Adository.CSharp.dll
-D:\Irpan\Adository\Adository.CSharp\bin\Debug\Adository.CSharp.pdb
-D:\Irpan\Adository\Adository.CSharp\bin\Debug\Adository.Data.SqlServer.dll
-D:\Irpan\Adository\Adository.CSharp\bin\Debug\Adository.Data.SqlServer.pdb
-D:\Irpan\Adository\Adository.CSharp\obj\Debug\Adository.CSharp.csprojAssemblyReference.cache
-D:\Irpan\Adository\Adository.CSharp\obj\Debug\Adository.CSharp.csproj.CoreCompileInputs.cache
-D:\Irpan\Adository\Adository.CSharp\obj\Debug\Adository.CSharp.csproj.CopyComplete
-D:\Irpan\Adository\Adository.CSharp\obj\Debug\Adository.CSharp.dll
-D:\Irpan\Adository\Adository.CSharp\obj\Debug\Adository.CSharp.pdb
