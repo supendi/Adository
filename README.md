@@ -1,6 +1,6 @@
 # Adository
 <h2>What it Adository?</h2> 
-<p>If you are a fans of ADO .Net and want to stick with it because you dont want to migrate to EF yet, then here is a tool for you to generate repository classes using ADO .Net.</p>
+<p>If you are a fans of ADO .Net and want to stick with it because you dont want to migrate to EF yet, then here is a tool for you to generate repository classes using ADO .Net. Or in other word it is a data access layer generator tool</p>
 
 <h2>Supported Languange And Database</h2>
 <p>Database: SQL Server</p>
