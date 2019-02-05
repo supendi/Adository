@@ -1,4 +1,4 @@
-﻿using Pend.WFL;
+﻿using Adository.WFL;
 
 namespace Adository.VB.UI.Generator
 {

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.Tab = new Pend.WFL.Controls.PendTabControl();
+            this.Tab = new Adository.WFL.XTabControl();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
@@ -156,7 +156,7 @@
 
         #endregion
 
-        public Pend.WFL.Controls.PendTabControl Tab;
+        public Adository.WFL.XTabControl Tab;
         private System.Windows.Forms.ToolTip toolTip;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel;
         private System.Windows.Forms.StatusStrip statusStrip;

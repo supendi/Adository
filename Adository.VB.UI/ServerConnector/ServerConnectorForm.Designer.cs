@@ -33,12 +33,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.cboAuthType = new Pend.WFL.Controls.PendComboBox();
+            this.cboAuthType = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.cboServerName = new Pend.WFL.Controls.PendComboBox();
+            this.cboServerName = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtPassword = new Pend.WFL.Controls.PendTextBox();
-            this.txtUserName = new Pend.WFL.Controls.PendTextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.txtUserName = new System.Windows.Forms.TextBox();
             this.lblTitle = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -63,7 +63,7 @@
             this.btnOK.Size = new System.Drawing.Size(118, 30);
             this.btnOK.TabIndex = 0;
             this.btnOK.Text = "OK";
-            this.btnOK.UseVisualStyleBackColor = false; 
+            this.btnOK.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
@@ -105,16 +105,13 @@
             // 
             // cboAuthType
             // 
-            this.cboAuthType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboAuthType.ErrorMessage = null;
-            this.cboAuthType.FieldName = null;
+            this.cboAuthType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList; 
             this.cboAuthType.FormattingEnabled = true;
             this.cboAuthType.Items.AddRange(new object[] {
             "Database",
             "Windows"});
             this.cboAuthType.Location = new System.Drawing.Point(147, 98);
-            this.cboAuthType.Name = "cboAuthType";
-            this.cboAuthType.PendValue = "";
+            this.cboAuthType.Name = "cboAuthType"; 
             this.cboAuthType.Size = new System.Drawing.Size(251, 21);
             this.cboAuthType.TabIndex = 7;
             this.cboAuthType.SelectedIndexChanged += new System.EventHandler(this.cboAuthType_SelectedIndexChanged);
@@ -129,13 +126,10 @@
             this.label6.Text = "Authentication:";
             // 
             // cboServerName
-            // 
-            this.cboServerName.ErrorMessage = null;
-            this.cboServerName.FieldName = null;
+            //  
             this.cboServerName.FormattingEnabled = true;
             this.cboServerName.Location = new System.Drawing.Point(147, 71);
-            this.cboServerName.Name = "cboServerName";
-            this.cboServerName.PendValue = "localhost";
+            this.cboServerName.Name = "cboServerName"; 
             this.cboServerName.Size = new System.Drawing.Size(251, 21);
             this.cboServerName.TabIndex = 6;
             this.cboServerName.Text = "localhost";
@@ -150,26 +144,16 @@
             this.label5.Text = "Server name:";
             // 
             // txtPassword
-            // 
-            this.txtPassword.BrowseButton = null;
-            this.txtPassword.ErrorMessage = null;
-            this.txtPassword.FieldName = null;
+            //  
             this.txtPassword.Location = new System.Drawing.Point(147, 151);
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.PendValue = "";
-            this.txtPassword.ShowButton = false;
+            this.txtPassword.Name = "txtPassword"; 
             this.txtPassword.Size = new System.Drawing.Size(251, 20);
             this.txtPassword.TabIndex = 9;
             // 
             // txtUserName
-            // 
-            this.txtUserName.BrowseButton = null;
-            this.txtUserName.ErrorMessage = null;
-            this.txtUserName.FieldName = null;
+            //  
             this.txtUserName.Location = new System.Drawing.Point(147, 125);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.PendValue = "";
-            this.txtUserName.ShowButton = false;
+            this.txtUserName.Name = "txtUserName"; 
             this.txtUserName.Size = new System.Drawing.Size(251, 20);
             this.txtUserName.TabIndex = 8;
             // 
@@ -264,12 +248,12 @@
         public System.Windows.Forms.Label label2;
         public System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private Pend.WFL.Controls.PendComboBox cboAuthType;
+        private System.Windows.Forms.ComboBox cboAuthType;
         public System.Windows.Forms.Label label6;
-        private Pend.WFL.Controls.PendComboBox cboServerName;
+        private System.Windows.Forms.ComboBox cboServerName;
         public System.Windows.Forms.Label label5;
-        private Pend.WFL.Controls.PendTextBox txtPassword;
-        private Pend.WFL.Controls.PendTextBox txtUserName;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.Label label3;

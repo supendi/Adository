@@ -32,9 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Pend.WFL">
-      <HintPath>..\..\..\Others\Minibyte\Pend.WFL\Pend.WFL\bin\Debug\Pend.WFL.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -155,6 +152,10 @@
     <ProjectReference Include="..\Adository.Data.SqlServer\Adository.Data.SqlServer.csproj">
       <Project>{9e3c8e9e-6195-4fff-9e43-b1ab05af17ac}</Project>
       <Name>Adository.Data.SqlServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Adository.WFL\Adository.WFL.csproj">
+      <Project>{9467B4A3-115A-464A-A54F-9ED3561F7726}</Project>
+      <Name>Adository.WFL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

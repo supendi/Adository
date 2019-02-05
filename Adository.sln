@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adository.VB.UI", "Adositor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adository", "Adository\Adository.csproj", "{12C7C55C-88FE-47F0-B77C-73EF7DE7F19E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adository.WFL", "Adository.WFL\Adository.WFL.csproj", "{9467B4A3-115A-464A-A54F-9ED3561F7726}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{12C7C55C-88FE-47F0-B77C-73EF7DE7F19E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12C7C55C-88FE-47F0-B77C-73EF7DE7F19E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12C7C55C-88FE-47F0-B77C-73EF7DE7F19E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9467B4A3-115A-464A-A54F-9ED3561F7726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9467B4A3-115A-464A-A54F-9ED3561F7726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9467B4A3-115A-464A-A54F-9ED3561F7726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9467B4A3-115A-464A-A54F-9ED3561F7726}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

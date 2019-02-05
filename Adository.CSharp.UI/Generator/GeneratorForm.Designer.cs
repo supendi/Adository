@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtSaveToFolder = new Pend.WFL.Controls.PendTextBox();
-            this.txtProjectName = new Pend.WFL.Controls.PendTextBox();
+            this.txtSaveToFolder = new System.Windows.Forms.TextBox();
+            this.txtProjectName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtDbContext = new Pend.WFL.Controls.PendTextBox();
+            this.txtDbContext = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtSelectedDatabase = new Pend.WFL.Controls.PendTextBox();
+            this.txtSelectedDatabase = new System.Windows.Forms.TextBox();
             this.btnBrowse = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtNamespaceName = new Pend.WFL.Controls.PendTextBox();
+            this.txtNamespaceName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnOK = new System.Windows.Forms.Button();
@@ -47,25 +47,16 @@
             // 
             // txtSaveToFolder
             // 
-            this.txtSaveToFolder.BrowseButton = null;
-            this.txtSaveToFolder.ErrorMessage = null;
-            this.txtSaveToFolder.FieldName = null;
+
             this.txtSaveToFolder.Location = new System.Drawing.Point(126, 123);
             this.txtSaveToFolder.Name = "txtSaveToFolder";
-            this.txtSaveToFolder.PendValue = "";
-            this.txtSaveToFolder.ShowButton = false;
             this.txtSaveToFolder.Size = new System.Drawing.Size(251, 20);
             this.txtSaveToFolder.TabIndex = 9;
             // 
             // txtProjectName
-            // 
-            this.txtProjectName.BrowseButton = null;
-            this.txtProjectName.ErrorMessage = null;
-            this.txtProjectName.FieldName = null;
+            //  
             this.txtProjectName.Location = new System.Drawing.Point(126, 45);
             this.txtProjectName.Name = "txtProjectName";
-            this.txtProjectName.PendValue = "";
-            this.txtProjectName.ShowButton = false;
             this.txtProjectName.Size = new System.Drawing.Size(251, 20);
             this.txtProjectName.TabIndex = 6;
             this.txtProjectName.TextChanged += new System.EventHandler(this.txtProjectName_TextChanged);
@@ -109,14 +100,9 @@
             this.groupBox1.Text = "Setup Folder";
             // 
             // txtDbContext
-            // 
-            this.txtDbContext.BrowseButton = null;
-            this.txtDbContext.ErrorMessage = null;
-            this.txtDbContext.FieldName = null;
+            //  
             this.txtDbContext.Location = new System.Drawing.Point(126, 97);
             this.txtDbContext.Name = "txtDbContext";
-            this.txtDbContext.PendValue = "";
-            this.txtDbContext.ShowButton = false;
             this.txtDbContext.Size = new System.Drawing.Size(251, 20);
             this.txtDbContext.TabIndex = 8;
             // 
@@ -130,15 +116,10 @@
             this.label5.Text = "DbContext Name:";
             // 
             // txtSelectedDatabase
-            // 
-            this.txtSelectedDatabase.BrowseButton = null;
-            this.txtSelectedDatabase.ErrorMessage = null;
-            this.txtSelectedDatabase.FieldName = null;
+            //  
             this.txtSelectedDatabase.Location = new System.Drawing.Point(126, 19);
             this.txtSelectedDatabase.Name = "txtSelectedDatabase";
-            this.txtSelectedDatabase.PendValue = "";
             this.txtSelectedDatabase.ReadOnly = true;
-            this.txtSelectedDatabase.ShowButton = false;
             this.txtSelectedDatabase.Size = new System.Drawing.Size(251, 20);
             this.txtSelectedDatabase.TabIndex = 5;
             this.txtSelectedDatabase.TabStop = false;
@@ -163,14 +144,9 @@
             this.label4.Text = "Selected Database:";
             // 
             // txtNamespaceName
-            // 
-            this.txtNamespaceName.BrowseButton = null;
-            this.txtNamespaceName.ErrorMessage = null;
-            this.txtNamespaceName.FieldName = null;
+            //  
             this.txtNamespaceName.Location = new System.Drawing.Point(126, 71);
             this.txtNamespaceName.Name = "txtNamespaceName";
-            this.txtNamespaceName.PendValue = "";
-            this.txtNamespaceName.ShowButton = false;
             this.txtNamespaceName.Size = new System.Drawing.Size(251, 20);
             this.txtNamespaceName.TabIndex = 7;
             // 
@@ -222,17 +198,17 @@
 
         #endregion
 
-        private Pend.WFL.Controls.PendTextBox txtSaveToFolder;
-        private Pend.WFL.Controls.PendTextBox txtProjectName;
+        private System.Windows.Forms.TextBox txtSaveToFolder;
+        private System.Windows.Forms.TextBox txtProjectName;
         public System.Windows.Forms.Label label1;
         public System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private Pend.WFL.Controls.PendTextBox txtDbContext;
+        private System.Windows.Forms.TextBox txtDbContext;
         public System.Windows.Forms.Label label5;
-        private Pend.WFL.Controls.PendTextBox txtSelectedDatabase;
+        private System.Windows.Forms.TextBox txtSelectedDatabase;
         private System.Windows.Forms.Button btnBrowse;
         public System.Windows.Forms.Label label4;
-        private Pend.WFL.Controls.PendTextBox txtNamespaceName;
+        private System.Windows.Forms.TextBox txtNamespaceName;
         public System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnOK;
