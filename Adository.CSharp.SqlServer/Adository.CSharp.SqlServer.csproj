@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EAE2C2CB-E25A-4E1A-B602-ACEDD97F5EB2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Adository.CSharp.SqlServer</RootNamespace>
+    <AssemblyName>Adository.CSharp.SqlServer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdositoryGenerator.cs" />
+    <Compile Include="DbContextBuilder\DbClass.cs" />
+    <Compile Include="DbContextBuilder\DbDocumentProvider.cs" />
+    <Compile Include="DeleteBuilder\DeleteByColumnMethod.cs" />
+    <Compile Include="DeleteBuilder\DeleteByPrimaryKeyMethod.cs" />
+    <Compile Include="DeleteBuilder\DeleteClass.cs" />
+    <Compile Include="DeleteBuilder\DeleteDocumentProvider.cs" />
+    <Compile Include="DeleteBuilder\DeleteMethod.cs" />
+    <Compile Include="DocumentProviderBase.cs" />
+    <Compile Include="InsertBuilder\InsertClass.cs" />
+    <Compile Include="InsertBuilder\InsertDocumentProvider.cs" />
+    <Compile Include="InsertBuilder\InsertMethod.cs" />
+    <Compile Include="InsertBuilder\InsertNewRecordMethod.cs" />
+    <Compile Include="ModelBuilder\ModelClass.cs" />
+    <Compile Include="ModelBuilder\ModelDocumentProvider.cs" />
+    <Compile Include="Models\CSArgument.cs" />
+    <Compile Include="Models\CSBlock.cs" />
+    <Compile Include="Models\CSClass.cs" />
+    <Compile Include="Models\CSDocument.cs" />
+    <Compile Include="Models\CSMember.cs" />
+    <Compile Include="Models\CSMethod.cs" />
+    <Compile Include="Models\CSNamespace.cs" />
+    <Compile Include="Models\CSObject.cs" />
+    <Compile Include="Models\Enums.cs" />
+    <Compile Include="Models\TextBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectBuilder\CountByKeywordMethod.cs" />
+    <Compile Include="SelectBuilder\CountMethod.cs" />
+    <Compile Include="SelectBuilder\SelectAllMethod.cs" />
+    <Compile Include="SelectBuilder\SelectByColumnMethod.cs" />
+    <Compile Include="SelectBuilder\SelectByKeywordKeyMethod.cs" />
+    <Compile Include="SelectBuilder\SelectByPrimaryKeyMethod.cs" />
+    <Compile Include="SelectBuilder\SelectClass.cs" />
+    <Compile Include="SelectBuilder\SelectDocumentProvider.cs" />
+    <Compile Include="SelectBuilder\SelectMethod.cs" />
+    <Compile Include="SelectBuilder\SelectSingleMethod.cs" />
+    <Compile Include="SelectBuilder\ToListMethodPublic.cs" />
+    <Compile Include="SelectBuilder\ToListMethod.cs" />
+    <Compile Include="RepositoryPackBuilder\RepositoryPackClass.cs" />
+    <Compile Include="RepositoryPackBuilder\RepositoryPackDocumentProvider.cs" />
+    <Compile Include="UpdateBuilder\SetSqlCommandParameterMethod.cs" />
+    <Compile Include="UpdateBuilder\UpdateByColumnMethod.cs" />
+    <Compile Include="UpdateBuilder\UpdateByPrimaryKeyMethod.cs" />
+    <Compile Include="UpdateBuilder\UpdateClass.cs" />
+    <Compile Include="UpdateBuilder\UpdateColumnByPrimaryKeyMethod.cs" />
+    <Compile Include="UpdateBuilder\UpdateDocumentProvider.cs" />
+    <Compile Include="UpdateBuilder\UpdateMethod.cs" />
+    <Compile Include="ViewBuilder\ViewClass.cs" />
+    <Compile Include="ViewBuilder\ViewDocumentProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Adository.Common\Adository.Common.csproj">
+      <Project>{8801D08F-0618-490B-89EC-205B92C5C2A1}</Project>
+      <Name>Adository.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Adository.Data.SqlServer\Adository.Data.SqlServer.csproj">
+      <Project>{9E3C8E9E-6195-4FFF-9E43-B1AB05AF17AC}</Project>
+      <Name>Adository.Data.SqlServer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
